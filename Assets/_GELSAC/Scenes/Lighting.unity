@@ -22595,6 +22595,12 @@ Transform:
   m_Father: {fileID: 240443670}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!20 &853261539 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7964118970463450884, guid: 1221ef5ac35594cf6a2a3601e2099995,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302111246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &877670728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32345,6 +32351,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1769400876389632618, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627578096076038382, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3011412042006945989, guid: 1221ef5ac35594cf6a2a3601e2099995,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32355,12 +32371,70 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -9.07
       objectReference: {fileID: 0}
+    - target: {fileID: 3011412043520013177, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 823
+      objectReference: {fileID: 0}
+    - target: {fileID: 3011412043520013177, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3011412043520013179, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_Cameras.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3011412043520013179, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_Cameras.Array.data[0]
+      value: 
+      objectReference: {fileID: 853261539}
+    - target: {fileID: 3690524358902308505, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3736331557513106286, guid: 1221ef5ac35594cf6a2a3601e2099995,
         type: 3}
       propertyPath: m_Name
       value: GrapplePlayer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4759011075687305720, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148995270670878567, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_CameraType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6734737407164626535, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964118970463450884, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964118970463450884, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964118970463450884, guid: 1221ef5ac35594cf6a2a3601e2099995,
+        type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2635597868954841990, guid: 1221ef5ac35594cf6a2a3601e2099995, type: 3}
+    - {fileID: 3559174569376567829, guid: 1221ef5ac35594cf6a2a3601e2099995, type: 3}
+    - {fileID: 1139949569684854253, guid: 1221ef5ac35594cf6a2a3601e2099995, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1221ef5ac35594cf6a2a3601e2099995, type: 3}
 --- !u!43 &1334213010
 Mesh:
