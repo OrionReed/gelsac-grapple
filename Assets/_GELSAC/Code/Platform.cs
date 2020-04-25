@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float speed;
+    public Vector3 startMarker;
+    public Vector3 endMarker;
 
-    // Update is called once per frame
+    public float speed = 1.0f;
+
+    private float journeyFraction = 0;
+    
     void Update()
-    {
-        
+    {   
+        journeyFraction += Time.deltaTime * speed;
+
+        if (journeyFraction >= 1){ speed = speed * -1; };
+        if (journeyFraction <= 0){ speed = speed * -1; };
+
+        transform.position = Vector3.Lerp(startMarker, endMarker, journeyFraction);
     }
 }
