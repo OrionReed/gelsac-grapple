@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 59569534a6228494cb3bf95c58920f8d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Brandon Grotesque
+  fontNames:
+  - Brandon Grotesque
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f3b594100453d4a8094a3d2e79f5d706, type: 3}
+  - {fileID: 12800000, guid: a2ccbac180ef549008557d9b984df05f, type: 3}
+  - {fileID: 12800000, guid: 7071b713fb5204c6c9c24967ed3676de, type: 3}
+  - {fileID: 12800000, guid: c07e8424b60934a448623c3cac844294, type: 3}
+  - {fileID: 12800000, guid: 25c116b44724a48c5867fc6e713094a5, type: 3}
+  - {fileID: 12800000, guid: 71038e25f56e74fe7a221b05f45f3cbe, type: 3}
+  - {fileID: 12800000, guid: 4992bda64d33442c88e3930519cc72f6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Suprise
+  m_EditorClassIdentifier: Assembly-CSharp::EyeSequence
+  movements:
+  - {fileID: 11400000, guid: a1a459628e11546d2975938db0dbffc2, type: 2}
+  - {fileID: 11400000, guid: c7b2d19b9e4a4427a8d1e0416a2efef8, type: 2}
+  - {fileID: 11400000, guid: 3c157a972d72148618f0513f74f60758, type: 2}
+  - {fileID: 11400000, guid: c7b2d19b9e4a4427a8d1e0416a2efef8, type: 2}
+  - {fileID: 11400000, guid: a04ad44d315c14e82aaa1fe24f9cd749, type: 2}
+  - {fileID: 11400000, guid: 3c157a972d72148618f0513f74f60758, type: 2}
+  - {fileID: 11400000, guid: 7378df14a194f455c8eec33e357043e2, type: 2}
+  - {fileID: 11400000, guid: a04ad44d315c14e82aaa1fe24f9cd749, type: 2}
